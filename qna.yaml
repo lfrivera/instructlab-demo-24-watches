@@ -34,6 +34,10 @@ seed_examples:
           What is the dial design of the Patek Philippe Cubitus?
         answer: |
           The dial of the Patek Philippe Cubitus features a horizontal embossed pattern, reminiscent of the Nautilus design, and is available in sunburst olive green or blue.
+      - question: |
+          What are the available dial colors for the Patek Philippe Cubitus?
+        answer: |
+          The available dial colors for the Patek Philippe Cubitus are sunburst olive green or blue.
   - context: |
       Here are some of the offered models for the Patek Philippe Cubitus collection.
       Reference 5821/1A-001: A stainless steel model with a sunburst olive green dial, featuring a date aperture at 3 o'clock and sweep seconds. It is powered by the self-winding Caliber 26-330 S C movement, which includes a stop-seconds function for precise time-setting.
@@ -48,6 +52,10 @@ seed_examples:
           What is the model of the stainless steel Patek Philippe Cubitus with a sunburst olive green dial?
         answer: |
           The stainless steel Patek Philippe Cubitus with a sunburst olive green dial is Reference 5821/1A-001.
+      - question: |
+          What is the model of the two-tone Patek Philippe Cubitus with a blue dial?
+        answer: |
+          The two-tone Patek Philippe Cubitus with a blue dial is Reference 5821/1AR-001.
   - context: |
       Here are some prices for the models in the Patek Philippe Cubitus collection.
       The retail price of a Patek Philippe Cubitus Reference 5821/1A-001 is $41,240 USD.
@@ -84,10 +92,14 @@ seed_examples:
           Who was the first celebrity to wear the Patek Philippe Cubitus?
         answer: |
           Actor Mark Wahlberg became the first celebrity to wear the Patek Philippe Cubitus, showcasing it on social media shortly after its launch.
+      - question: |
+          How has the Patek Philippe Cubitus collection performed in the secondary market?
+        answer: |
+          The collection has seen strong demand in the secondary market, with models selling at premiums over their retail prices.
 document_outline: |
   Information about the Patek Phillipe Cubitus collection.
 document:
   repo: https://github.com/lfrivera/instructlab-demo-24-watches
-  commit: TBD
+  commit: 10283c19fbc73f9133968fe9e3d818ab0d549fb2
   patterns:
     - pp-cubitus.md
