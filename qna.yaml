@@ -100,6 +100,6 @@ document_outline: |
   Information about the Patek Phillipe Cubitus collection.
 document:
   repo: https://github.com/lfrivera/instructlab-demo-24-watches
-  commit: 10283c19fbc73f9133968fe9e3d818ab0d549fb2
+  commit: b13ce3cb3db1709166dd48f8b6be8f51c2e0d8d8
   patterns:
     - pp-cubitus.md
