@@ -1,0 +1,93 @@
+---
+version: 3
+domain: watch collection
+created_by: lfrivera
+seed_examples:
+  - context: |
+      The Patek Philippe Cubitus, introduced in October 2024, marks the brand's first new collection in 25 years,
+      following the Twenty~4 line launched in 1999. This collection features a distinctive square case design,
+      blending boldness with elegance, and is available in various materials, including stainless steel, two-tone steel and rose gold,
+      and platinum.
+    questions_and_answers:
+      - question: |
+          What is a Patek Philippe Cubitus?
+        answer: |
+          It is a watch collection by the brand Patek Philippe.
+      - question: |
+          When was the Patek Philippe Cubitus collection introduced?
+        answer: |
+          The Patek Philippe Cubitus collection was introduced in October 2024.
+      - question: |
+          What are the materials used in the Patek Philippe Cubitus collection?
+        answer: |
+          The Patek Philippe Cubitus collection is available in various materials, including stainless steel, two-tone steel and rose gold, and platinum.
+  - context: |
+      Specifications
+      Case and Dial: The Cubitus showcases a square case with rounded corners, measuring 45 mm diagonally.
+      The dial features a horizontal embossed pattern, reminiscent of the Nautilus design, and is available in sunburst olive green or blue.
+    questions_and_answers:
+      - question: |
+          What is the case size of the Patek Philippe Cubitus?
+        answer: |
+          The case size of the Patek Philippe Cubitus measures 45 mm diagonally.
+      - question: |
+          What is the dial design of the Patek Philippe Cubitus?
+        answer: |
+          The dial of the Patek Philippe Cubitus features a horizontal embossed pattern, reminiscent of the Nautilus design, and is available in sunburst olive green or blue.
+  - context: |
+      Here are some of the offered models for the Patek Philippe Cubitus collection.
+      Reference 5821/1A-001: A stainless steel model with a sunburst olive green dial, featuring a date aperture at 3 o'clock and sweep seconds. It is powered by the self-winding Caliber 26-330 S C movement, which includes a stop-seconds function for precise time-setting.
+      Reference 5821/1AR-001: A two-tone model combining stainless steel and rose gold, paired with a blue dial. It shares the same movement and features as the 5821/1A-001.
+      Reference 5822P-001: A platinum model featuring an instantaneous grand date, day, and moon phase indications. This model is powered by the self-winding Caliber 240 PS CI J LU movement, developed over four years and incorporating six patents. The case is adorned with a baguette-cut diamond set on the bezel at 6 o'clock.
+    questions_and_answers:
+      - question: |
+          What are the models offered in the Patek Philippe Cubitus collection?
+        answer: |
+          The models offered in the Patek Philippe Cubitus collection include Reference 5821/1A-001, Reference 5821/1AR-001, and Reference 5822P-001.
+      - question: |
+          What is the model of the stainless steel Patek Philippe Cubitus with a sunburst olive green dial?
+        answer: |
+          The stainless steel Patek Philippe Cubitus with a sunburst olive green dial is Reference 5821/1A-001.
+  - context: |
+      Here are some prices for the models in the Patek Philippe Cubitus collection.
+      The retail price of a Patek Philippe Cubitus Reference 5821/1A-001 is $41,240 USD.
+      According to the specialized online watch store, chrono24.com, the aftermarket price of a Patek Philippe Cubitus Reference 5821/1A-001 is $147,500 USD.
+      According to the specialized online watch store, chrono24.com, the aftermarket price of a Patek Philippe Cubitus Reference 5821/1AR-001 is $133,310 USD.
+      According to the specialized online watch store, chrono24.com, the aftermarket price of a Patek Philippe Cubitus Reference 5822P-001 is $176,995 USD.
+    questions_and_answers:
+      - question: |
+          What is the retail price of a Patek Philippe Cubitus Reference 5821/1A-001?
+        answer: |
+          The retail price of a Patek Philippe Cubitus Reference 5821/1A-001 is $41,240 USD.
+      - question: |
+          What is the aftermarket price of a Patek Philippe Cubitus Reference 5821/1A-001?
+        answer: The aftermarket price of a Patek Philippe Cubitus Reference 5821/1A-001 is $147,500 USD.
+      - question: |
+          What is the aftermarket price of a Patek Philippe Cubitus Reference 5821/1AR-001?
+        answer: |
+          The aftermarket price of a Patek Philippe Cubitus Reference 5821/1AR-001 is $133,310 USD.
+      - question: |
+          What is the aftermarket price of a Patek Philippe Cubitus Reference 5822P-001?
+        answer: |
+          The aftermarket price of a Patek Philippe Cubitus Reference 5822P-001 is $176,995 USD.
+  - context: |
+      Here is information about the market reception for the Patek Philippe Cubitus collection.
+      The Cubitus collection has garnered significant attention since its release.
+      Notably, actor Mark Wahlberg became the first celebrity to wear the Cubitus, showcasing it on social media shortly after its launch.
+      Additionally, the collection has seen strong demand in the secondary market, with models selling at premiums over their retail prices.
+    questions_and_answers:
+      - question: |
+          What is the market reception for the Patek Philippe Cubitus collection?
+        answer: |
+          The Cubitus collection has garnered significant attention since its release, with strong demand in the secondary market.
+      - question: |
+          Who was the first celebrity to wear the Patek Philippe Cubitus?
+        answer: |
+          Actor Mark Wahlberg became the first celebrity to wear the Patek Philippe Cubitus, showcasing it on social media shortly after its launch.
+document_outline: |
+  Information about the Patek Phillipe Cubitus collection.
+document:
+  repo: https://github.com/lfrivera/instructlab-demo-24-watches
+  commit: TBD
+  patterns:
+    - pp-cubitus.md
